@@ -20,6 +20,8 @@ header {
     height: 60px;
     display: flex;
     justify-content: center;
+    position: fixed;
+    background-color: white;
 }
 
 .box-nav {
@@ -54,7 +56,7 @@ main {
 }
 
 .section1 {
-    height: calc(100vh - 60px);
+    height: 100vh;
     background: linear-gradient(to right, var(--collor-green), var(--collor-green-gradient));
     padding: 0 57px;
     color: var(--collor-white);
